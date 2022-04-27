@@ -40,23 +40,22 @@ Reward = -1 for all states, even when passing the goal. The reward is set to 0 v
 2) There is an experiment class for q-learning to help setup and run a lot of tests quickly. It's not that hard to figure out. 
 
 ## Files: 
-*gym_mountainCar_tutorial.py*: A tutorial I followed to learn the basics. I recommend following the source in this file if you want to learn. THIS IS NOT MY WORK, THOUGH SOME VARIABLES HAVE DIFFERENT NAMES. 
-*ExperimentWrapper.py*: The wrapper for setting up and running lots of experiments quickly.   
-*qExperimentClasses.py*: The main gear-house which implements the epsilon-greedy Q-learning algorithm. 
+1) *gym_mountainCar_tutorial.py*: A tutorial I followed to learn the basics. I recommend following the source in this file if you want to learn. THIS IS NOT MY WORK, THOUGH SOME VARIABLES HAVE DIFFERENT NAMES. 
+2) *ExperimentWrapper.py*: The wrapper for setting up and running lots of experiments quickly.   
+3) *qExperimentClasses.py*: The main gear-house which implements the epsilon-greedy Q-learning algorithm. 
 
 ## Software Dependencies and Imports 
-numpy  
-gym
-random 
-matplotlib.pyplot
-math 
-pandas  
-itertools
-copy 
-
+1) numpy  
+2) gym
+3) random 
+4) matplotlib.pyplot
+5) math 
+6) pandas  
+7) itertools
+8) copy 
 
 ## Sources 
-**Starting code:**   https://www.youtube.com/watch?v=Gq1Azv_B4-4
-**Example values:**  https://github.com/svpino/lunar-lander
-**Deep Q learning (TODO):** https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf 
+1) **Starting code:**   https://www.youtube.com/watch?v=Gq1Azv_B4-4
+2) **Example values:**  https://github.com/svpino/lunar-lander
+3) **Deep Q learning (TODO):** https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf 
 
