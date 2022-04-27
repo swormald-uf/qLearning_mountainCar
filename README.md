@@ -38,6 +38,7 @@ Reward = -1 for all states, even when passing the goal. The reward is set to 0 v
 ## Things that might be surprising: 
 1) This does not use a q-table, but instead uses a "qMap" (self-defined class). This class is a table that helps to preserve memory as it doesn't not require you to have memory avaliable unless you have encountered a state before. Aside from that, it works the same as a q-table and has functions to help you get the values you want. 
 2) There is an experiment class for q-learning to help setup and run a lot of tests quickly. It's not that hard to figure out. 
+3) You need to make a folder for the software to put results or else it will crash. 
 
 ## Files: 
 1) *gym_mountainCar_tutorial.py*: A tutorial I followed to learn the basics. I recommend following the source in this file if you want to learn. THIS IS NOT MY WORK, THOUGH SOME VARIABLES HAVE DIFFERENT NAMES. 
