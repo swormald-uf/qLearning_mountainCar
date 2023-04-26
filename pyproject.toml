@@ -1,0 +1,46 @@
+[tool.pdm]
+
+[project]
+name = "AAIG_Project"
+version = "0.1.0"
+description = "Template project for submitting code to AAIG group repository"
+authors = [
+    {name = "Daniel Capecci", email = "7775585+dk0d@users.noreply.github.com"},
+]
+
+# TODO: Enter the dependencies for your code
+dependencies = [
+    # Likely need pytorch (or tensorflow)
+    # "torch>=2.0.0",
+    # "torchvision",
+    # "torchaudio"
+    # Can also use torchinstaller utility which can help with cuda versions etc
+    # "torchinstaller>=0.5.10"
+]
+
+
+# TODO: Rename this path and the appropriate folder to your project's name
+[tool.hatch.build.targets.wheel]
+packages = ["project_name"]
+
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
+
+# These are required for testing
+[project.optional-dependencies]
+test = [
+    "pytest>=7.3.1",
+    "pytest-mock",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
