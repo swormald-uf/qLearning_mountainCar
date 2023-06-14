@@ -3,30 +3,28 @@
 [project]
 name = "AAIG_Project"
 version = "0.1.0"
-description = "Template project for submitting code to AAIG group repository"
+description = "Experiment runner for q-learning with environment input variations."
 authors = [
-    {name = "Daniel Capecci", email = "7775585+dk0d@users.noreply.github.com"},
+    {name = "Stephen Wormald"},
 ]
 
 # TODO: Enter the dependencies for your code
 dependencies = [
-    # Likely need pytorch (or tensorflow)
-    # "torch>=2.0.0",
-    # "torchvision",
-    # "torchaudio"
-    # Can also use torchinstaller utility which can help with cuda versions etc
-    # "torchinstaller>=0.5.10"
+	"ale_py==0.7.5"
+	"gym==0.21.0"
+	"matplotlib==3.6.2"
+	"numpy==1.23.5"
+	"pandas==1.4.1"
+	"pytest==6.2.4"
+	"torch==1.13.1"
 ]
 
-
-# TODO: Rename this path and the appropriate folder to your project's name
 [tool.hatch.build.targets.wheel]
-packages = ["project_name"]
+packages = ["basic_rl"]
 
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
-
 
 [tool.ruff]
 line-length = 100
