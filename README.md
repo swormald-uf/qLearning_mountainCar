@@ -1,16 +1,14 @@
-# basic_rl
-
-Project to run q_learning on the mountain car environment. Designed to test how agents learn better or worse when given information channels are turned on and off (x, y, dx, dy, ...). 
+# Introduction: qLearning_mountainCar (^_^)
+Project to run q_learning RL algorithm (w/ implementation) on the mountain car environment. Designed to test how agents learn better or worse when given information channels are turned on and off (x, y, dx, dy, ...). This project was completed as an assignment for the pattern recognition course hosted at the University of Florida.
 
 ## Quick Start 
 
 ### Running the software
 Run these commands (in the "basic_rl" folder): 
-
-`conda create -n basic_rl`
-`conda activate basic_rl`
-`pip install -r requirements.txt`
-`python basic_rl\run_experiment.py`
+- `conda create -n basic_rl`
+- `conda activate basic_rl`
+- `pip install -r requirements.txt`
+- `python basic_rl\run_experiment.py`
 
 ### Helpful classes
 - QMap (in utils) is a graphical alternate to a q-table for q-learning that only stores the learned value for the visited states. This saves memory when the state space is large (expecially when the state space is descritized). 
@@ -23,8 +21,6 @@ Run pytest with:
 ```bash
 $ pytest tests
 ```
-## Introduction 
-This software is a project assignment for the pattern recognition course hosted at the University of Florida. 
 
 ## Problem Statement
 The purpose is to learn the basics of reinforcement learning via an implementationof Q-learning
