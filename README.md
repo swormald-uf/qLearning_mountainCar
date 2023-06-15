@@ -27,8 +27,8 @@ The purpose is to learn the basics of reinforcement learning via an implementati
 to solve the Mountain Car game/environment made avaliable through the OpenAI gym. Please see the 
 following resources for details of to the problem statement. 
 
-OpenAI_Gym:  https://gym.openai.com/
-MountainCar: https://gym.openai.com/envs/MountainCar-v0/
+- OpenAI_Gym:  https://gym.openai.com/
+- MountainCar: https://gym.openai.com/envs/MountainCar-v0/
 
 The purpose of this software was to test how changing the feedback modalities (agent inputs) would influence the
 agent's ability to learn the value function or policy. It didn't - probably because the game is simple. 
