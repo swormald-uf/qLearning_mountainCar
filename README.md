@@ -1,5 +1,5 @@
 # Introduction: qLearning_mountainCar (^_^)
-Project to run q_learning RL algorithm (w/ implementation) on the mountain car environment. Designed to test how agents learn better or worse when given information channels are turned on and off (x, y, dx, dy, ...). This project was completed as an assignment for the pattern recognition course hosted at the University of Florida.
+Project to run q_learning RL algorithm (w/ implementation) on the mountain car environment. Designed to test how agents learn better or worse when given information channels are turned on and off (x, y, dx, dy, ...). This project was completed as an assignment for the pattern recognition course hosted at the University of Florida, and was self-defined based upon general project requirements.
 
 ## Quick Start 
 
