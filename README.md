@@ -4,11 +4,11 @@ Project to run q_learning RL algorithm (w/ implementation) on the mountain car e
 ## Quick Start 
 
 ### Running the software
-Run these commands (in the "basic_rl" folder): 
-- `conda create -n basic_rl`
-- `conda activate basic_rl`
+Run these commands (in the "qLearning_mountainCar" folder): 
+- `conda create -n qLearning_mountainCar`
+- `conda activate qLearning_mountainCar`
 - `pip install -r requirements.txt`
-- `python basic_rl\run_experiment.py`
+- `python qLearning_mountainCar\run_experiment.py`
 
 ### Helpful classes
 - QMap (in utils) is a graphical alternate to a q-table for q-learning that only stores the learned value for the visited states. This saves memory when the state space is large (expecially when the state space is descritized). 
